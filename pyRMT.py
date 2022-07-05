@@ -61,7 +61,7 @@ References
 from __future__ import division, print_function
 from builtins import reversed
 from builtins import map, zip
-from collections import MutableSequence, Sequence
+from collections.abc import MutableSequence, Sequence
 import copy
 from math import ceil
 from numbers import Complex, Integral, Real
